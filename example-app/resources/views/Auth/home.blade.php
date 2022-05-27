@@ -63,7 +63,7 @@
     <li class="nav-item py-2 d-inline-flex z-index-1">
         <span class="d-flex align-items-center p-0">
             <span>
-                <i class="animated fadeIn porto-icon-phone-call"></i>
+               <i class="fas fa-phone-volume"></i>
             </span>
             <a class="text-color-light text-decoration-none font-weight-semibold text-3-5 ml-2" href="tel:1234567890" data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">(800) 123-4567</a>
         </span>

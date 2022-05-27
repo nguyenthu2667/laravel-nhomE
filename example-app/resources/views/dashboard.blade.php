@@ -39,6 +39,7 @@
 </style>
 <link rel="https://api.w.org/" href="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-json/" /><link rel="alternate" type="application/json" href="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-json/wp/v2/pages/9" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.portotheme.com/wordpress/porto/business-consulting3/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-includes/wlwmanifest.xml" /> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 <meta name="generator" content="WordPress 5.7.6" />
 <link rel="canonical" href="https://www.portotheme.com/wordpress/porto/business-consulting3/" />
 <link rel='shortlink' href='https://www.portotheme.com/wordpress/porto/business-consulting3/' />
