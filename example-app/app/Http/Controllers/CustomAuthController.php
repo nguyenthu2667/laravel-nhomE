@@ -77,6 +77,10 @@ return Redirect('login');
 
 public function home()																									
 {																									
-return view('auth.home');																									
+return view('auth.home');																								
+}
+public function pagehome()																									
+{																									
+return view('auth.pagehome');																								
 }
 }																									
