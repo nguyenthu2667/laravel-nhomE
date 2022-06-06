@@ -580,73 +580,13 @@ Lorem...</p>					</div>
 		</div>
 	</div>
 </article>
-
-<article class="post post-grid col-md-6 col-lg-4 post-title-simple post-345 post type-post status-publish format-standard has-post-thumbnail hentry category-finance category-sports">
-	<div class="grid-box">
-			<div class="post-image single">
-		<div class="post-slideshow porto-carousel owl-carousel nav-inside nav-inside-center nav-style-2 show-nav-hover has-ccols ccols-1" data-plugin-options='{"nav":true}'>
-											<a href="2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-2/index.html" aria-label="post image">
-								<div class="img-thumbnail">
-						<img width="393" height="205" src="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/porto_placeholders/100x52.jpg') }}" data-oi="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-2-393x205.jpg" class="porto-lazyload owl-lazy img-responsive" alt="post" srcset="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/porto_placeholders/100x52.jpg 100w" data-srcset="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-2-393x205.jpg 393w, https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-2-367x192.jpg 367w" sizes="(max-width: 393px) 100vw, 393px" />													<span class="zoom" data-src="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-2.jpg" data-title=""><i class="fas fa-search"></i></span>
-											</div>
-								</a>
-								</div>
-		
-								<div class="post-date"><span class="day">15</span><span class="month">Feb</span><time datetime="2021-02-15">February 15, 2021</time></div>			</div>
-
-		<!-- Post meta before content -->
-		<div class="post-meta"><span class="meta-author"><i class="far fa-user"></i>By <a href="author/editor/index.html" title="Posts by John Doe" rel="author">John Doe</a></span><span class="meta-cats"><i class="far fa-folder"></i><a href="category/finance/index.html" rel="category tag">Finance</a>, <a href="category/sports/index.html" rel="category tag">Sports</a></span><span class="meta-comments"><i class="far fa-comments"></i><a href="2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-2/index.html#respond" title="Comment on Lorem ipsum dolor sit a met, consectetur">0 Comments</a></span></div>		<div class="post-content">
-
-			<h4 class="entry-title"><a href="2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-2/index.html">Lorem ipsum dolor sit a met, consectetur</a></h4>
-			<span class="vcard" style="display: none;"><span class="fn"><a href="author/editor/index.html" title="Posts by John Doe" rel="author">John Doe</a></span></span><span class="updated" style="display:none">2021-02-19T05:02:02+00:00</span><p class="post-excerpt">
-Lorem...</p>					</div>
-		<!-- Post meta after content -->
-				<div class="clearfix">
-			<a class="btn btn-xs btn-default text-xs text-uppercase btn-readmore" href="2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-2/index.html">Read more...</a>
-		</div>
-	</div>
-</article>
-
-<article class="post post-grid col-md-6 col-lg-4 post-title-simple post-341 post type-post status-publish format-standard has-post-thumbnail hentry category-finance">
-	<div class="grid-box">
-			<div class="post-image single">
-		<div class="post-slideshow porto-carousel owl-carousel nav-inside nav-inside-center nav-style-2 show-nav-hover has-ccols ccols-1" data-plugin-options='{"nav":true}'>
-											<a href="2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur/index.html" aria-label="post image">
-								<div class="img-thumbnail">
-						<img width="393" height="205" src="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/porto_placeholders/100x52.jpg') }}" data-oi="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-3-393x205.jpg" class="porto-lazyload owl-lazy img-responsive" alt="post" srcset="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/porto_placeholders/100x52.jpg 100w" data-srcset="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-3-393x205.jpg 393w, https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-3-367x192.jpg 367w" sizes="(max-width: 393px) 100vw, 393px" />													<span class="zoom" data-src="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-3.jpg" data-title=""><i class="fas fa-search"></i></span>
-											</div>
-								</a>
-								</div>
-		
-								<div class="post-date"><span class="day">15</span><span class="month">Feb</span><time datetime="2021-02-15">February 15, 2021</time></div>			</div>
-
-		<!-- Post meta before content -->
-		<div class="post-meta"><span class="meta-author"><i class="far fa-user"></i>By <a href="author/editor/index.html" title="Posts by John Doe" rel="author">John Doe</a></span><span class="meta-cats"><i class="far fa-folder"></i><a href="category/finance/index.html" rel="category tag">Finance</a></span><span class="meta-comments"><i class="far fa-comments"></i><a href="2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur/index.html#comments" title="Comment on Lorem ipsum dolor sit a met, consectetur">1 Comment</a></span></div>		<div class="post-content">
-
-			<h4 class="entry-title"><a href="2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur/index.html">Lorem ipsum dolor sit a met, consectetur</a></h4>
-			<span class="vcard" style="display: none;"><span class="fn"><a href="author/editor/index.html" title="Posts by John Doe" rel="author">John Doe</a></span></span><span class="updated" style="display:none">2021-02-15T14:55:12+00:00</span><p class="post-excerpt">
-Lorem...</p>					</div>
-		<!-- Post meta after content -->
-				<div class="clearfix">
-			<a class="btn btn-xs btn-default text-xs text-uppercase btn-readmore" href="2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur/index.html">Read more...</a>
-		</div>
-	</div>
-</article>
-
-	
 			</div>
 		</div>
-
-	
-	
 	</div></div></div></div></div></div>
 				</div>
 			</article>
 					
 	</div>
-
-		
-
 </div><!-- end main content -->
 
 

@@ -15,3 +15,6 @@ Route::post('custom-registration', [CustomAuthController::class, 'customRegistra
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 Route::get('home', [CustomAuthController::class, 'home'])->name('home');
 Route::get('pagehome', [CustomAuthController::class, 'pagehome'])->name('pagehome');
+Route::get('/category', function () {
+    return view('categoryresult');
+});
