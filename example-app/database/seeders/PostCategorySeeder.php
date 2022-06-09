@@ -15,7 +15,7 @@ class PostCategorySeeder extends Seeder
     public function run()
     {
         //
-        DB::table('category_product')->insert([
+        DB::table('categories_post')->insert([
             ['post_id' => 1,'category_id' => 1],
             ['post_id' => 1,'category_id' => 2],
             ['post_id' => 2,'category_id' => 2],

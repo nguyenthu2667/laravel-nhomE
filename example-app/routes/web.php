@@ -1,5 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\CustomAuthController;
 
 /*
@@ -15,6 +16,5 @@ Route::post('custom-registration', [CustomAuthController::class, 'customRegistra
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 Route::get('home', [CustomAuthController::class, 'home'])->name('home');
 Route::get('pagehome', [CustomAuthController::class, 'pagehome'])->name('pagehome');
-Route::get('/category', function () {
-    return view('categoryresult');
-});
+Route::get('/categoryresult/{category}', [PostController::class, 'getPostsEachCategoryId'])->name('categoryresult.categoryId');
+Route::get('pagehome', [PostController::class, 'getPosts']);

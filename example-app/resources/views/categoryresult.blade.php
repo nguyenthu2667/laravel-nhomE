@@ -40,7 +40,7 @@
 </style>
 <link rel='stylesheet' id='porto-style-css'  href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/themes/porto/css/theme/blog/type/modern.css') }}" media='all' />
 <link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-json/wp/v2/pages/9.json') }}"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/xmlrpc0db0.php?rsd') }}" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-includes/wlwmanifest.xml') }}" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-includes/wlwmanifest.xml') }}" />
 <meta name="generator" content="WordPress 5.7.6" />
 		<script type="text/javascript">
 		WebFontConfig = {
@@ -57,10 +57,10 @@
 <body class="archive category category-finance category-5 wp-embed-responsive porto-breadcrumbs-bb full blog-204 wpb-js-composer js-comp-ver-6.9.0 vc_responsive">
 
 	<div class="page-wrapper"><!-- page wrapper -->
-		
+
 								<!-- header wrapper -->
 			<div class="header-wrapper">
-								
+
 <header id="header" class="header-builder header-builder-p">
 <div class="porto-block" data-id="5"><style>/* Header Top */
 .custom-icon i { font-size: 25px; color: #fff; }
@@ -70,7 +70,7 @@
 .custom-header-top .row { flex-wrap: nowrap; }
 .custom-header-top-nav-background::after { content: ''; position: absolute; top: 7px; right: -7px; width: 100vw; height: 100%; transform: skewX(-25deg); z-index: 0; background: #f79a82; }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .w-md-40pct { width: 40% !important; flex: none; }
     .w-md-60-right { width: 60%; flex: none; max-width: 60%;}
 }
@@ -193,9 +193,9 @@
 
 							</div>
 			<!-- end header wrapper -->
-		
-		
-		
+
+
+
 		<div id="main" class="column2 column2-right-sidebar boxed no-breadcrumbs"><!-- main -->
 
 			<div class="porto-html-block porto-block-html-content-top"><div class="porto-block" data-id="393"><style>.vc_custom_1613680446955{padding-top: 65px !important;padding-bottom: 65px !important;background-color: #e5e5e5 !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.custom-page-header .breadcrumb { justify-content: center; }
@@ -206,9 +206,9 @@
 	<div class="row">
 		<div class="col-lg-12">
 							<div class="breadcrumbs-wrap text-center">
-					<ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><li class="home" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="https://www.portotheme.com/wordpress/porto/business-consulting3" title="Go to Home Page"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /><i class="delimiter delimiter-2"></i></li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="../../blog/index.html"><span itemprop="name">Blog</span></a><meta itemprop="position" content="2" /><i class="delimiter delimiter-2"></i></li><li>Finance</li></ul>				</div>
+					<ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><li class="home" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="https://www.portotheme.com/wordpress/porto/business-consulting3" title="Go to Home Page"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /><i class="delimiter delimiter-2"></i></li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="../../blog/index.html"><span itemprop="name">Blog</span></a><meta itemprop="position" content="2" /><i class="delimiter delimiter-2"></i></li><li>{{$category}}</li></ul>				</div>
 						<div class="text-center">
-				<h1 class="page-title">Finance</h1>
+				<h1 class="page-title">{{strtoupper($category)}}</h1>
 							</div>
 					</div>
 	</div>
@@ -228,68 +228,56 @@
 			<!-- main content -->
 			<div class="main-content col-lg-9">
 
-			
+
 
 <div id="content" role="main">
 	<div class="blog-posts posts-modern posts-container">
+        @foreach ($postById as $post)
+
+
 <article class="post post-modern hide-post-date post-title-simple post-348 post type-post status-publish format-standard has-post-thumbnail hentry category-animals category-finance category-sports category-videos">
 	<div class="post-image single">
 		<div class="post-slideshow porto-carousel owl-carousel nav-inside nav-inside-center nav-style-2 show-nav-hover has-ccols ccols-1" data-plugin-options='{"nav":true}'>
 											<a href="../../2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-3/index.html" aria-label="post image">
 								<div class="img-thumbnail">
-						<img width="730" height="381" src="../../wp-content/uploads/sites/204/2021/02/blog-1.jpg" class="owl-lazy img-responsive" alt="post" srcset="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-1.jpg 730w, https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-1-640x334.jpg 640w, https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-1-400x209.jpg 400w, https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-1-393x205.jpg 393w, https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-1-367x192.jpg 367w" sizes="(max-width: 730px) 100vw, 730px" />													<span class="zoom" data-src="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-1.jpg" data-title=""><i class="fas fa-search"></i></span>
+						<img width="730" height="381" src="{{ asset("giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/") .'/'. $post->postImgpagecove }}" class="owl-lazy img-responsive" alt="post" srcset="{{ asset("giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/") .'/'. $post->postImgpagecove }} 730w, {{ asset("giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/") .'/'. $post->postImgpagecove }} 640w, {{ asset("giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/") .'/'. $post->postImgpagecove }} 400w, {{ asset("giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/") .'/'. $post->postImgpagecove }} 393w, {{ asset("giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/") .'/'. $post->postImgpagecove }} 367w" sizes="(max-width: 730px) 100vw, 730px" />													<span class="zoom" data-src="{{ asset("giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/" . "{!!$post->postImgpagecove!!}") }}" data-title=""><i class="fas fa-search"></i></span>
 											</div>
 								</a>
 								</div>
-		
+
 			</div>
 
-	
+
 	<div class="post-content">
 
 		<h2 class="entry-title"><a href="../../2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-3/index.html">Lorem ipsum dolor sit a met, consectetur</a></h2>
-		<div class="post-meta"><span class="meta-date">February 15, 2021</span><span class="meta-author"><a href="../../author/editor/index.html" title="Posts by John Doe" rel="author">John Doe</a></span><span class="meta-cats"><a href="../videos/animals/index.html" rel="category tag">Animals</a>, <a href="index.html" rel="category tag">Finance</a>, <a href="../sports/index.html" rel="category tag">Sports</a>, <a href="../videos/index.html" rel="category tag">Videos</a></span><span class="meta-comments"><a href="../../2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-3/index.html#comments" title="Comment on Lorem ipsum dolor sit a met, consectetur">2 Comments</a></span></div><span class="vcard" style="display: none;"><span class="fn"><a href="../../author/editor/index.html" title="Posts by John Doe" rel="author">John Doe</a></span></span><span class="updated" style="display:none">2021-02-19T05:02:42+00:00</span><p class="post-excerpt">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis...</p>			</div>
+		<div class="post-meta"><span class="meta-date">February 15, 2021</span>
+            <span class="meta-author"><a href="../../author/editor/index.html" title="Posts by John Doe" rel="author">John Doe</a></span>
+            @foreach ($post->categories()->get() as $category)
+
+            <span class="meta-cats">
+                <a href="{{ route('categoryresult.categoryId',['category'=> $category->id]) }}" rel="category tag">{{$category->categoryName}}</a>,
+                @endforeach
+                 {{-- <span class="meta-comments"><a href="../../2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-3/index.html#comments" title="Comment on Lorem ipsum dolor sit a met, consectetur">2 Comments</a></span> --}}
+                </div>
+                 <span class="vcard" style="display: none;"><span class="fn"><a href="../../author/editor/index.html" title="Posts by John Doe" rel="author">John Doe</a></span></span><span class="updated" style="display:none">2021-02-19T05:02:42+00:00</span><p class="post-excerpt">
+ {{substr($post->postContent,0,150)}} ...</p>			</div>
 
 	<!-- Post meta after content -->
-	
+
 	<div class="clearfix">
 		<a class="btn-readmore" href="../../2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-3/index.html">Read more +</a>
 	</div>
 </article>
+@endforeach
 
-<article class="post post-modern hide-post-date post-title-simple post-345 post type-post status-publish format-standard has-post-thumbnail hentry category-finance category-sports">
-	<div class="post-image single">
-		<div class="post-slideshow porto-carousel owl-carousel nav-inside nav-inside-center nav-style-2 show-nav-hover has-ccols ccols-1" data-plugin-options='{"nav":true}'>
-											<a href="../../2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-2/index.html" aria-label="post image">
-								<div class="img-thumbnail">
-						<img width="730" height="381" src="../../wp-content/uploads/sites/204/2021/02/blog-2.jpg" class="owl-lazy img-responsive" alt="post" srcset="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-2.jpg 730w, https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-2-640x334.jpg 640w, https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-2-400x209.jpg 400w, https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-2-393x205.jpg 393w, https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-2-367x192.jpg 367w" sizes="(max-width: 730px) 100vw, 730px" />													<span class="zoom" data-src="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/blog-2.jpg" data-title=""><i class="fas fa-search"></i></span>
-											</div>
-								</a>
-								</div>
-		
-			</div>
-
-	
-	<div class="post-content">
-
-		<h2 class="entry-title"><a href="../../2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-2/index.html">Lorem ipsum dolor sit a met, consectetur</a></h2>
-		<div class="post-meta"><span class="meta-date">February 15, 2021</span><span class="meta-author"><a href="../../author/editor/index.html" title="Posts by John Doe" rel="author">John Doe</a></span><span class="meta-cats"><a href="index.html" rel="category tag">Finance</a>, <a href="../sports/index.html" rel="category tag">Sports</a></span><span class="meta-comments"><a href="../../2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-2/index.html#respond" title="Comment on Lorem ipsum dolor sit a met, consectetur">0 Comments</a></span></div><span class="vcard" style="display: none;"><span class="fn"><a href="../../author/editor/index.html" title="Posts by John Doe" rel="author">John Doe</a></span></span><span class="updated" style="display:none">2021-02-19T05:02:02+00:00</span><p class="post-excerpt">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis...</p>			</div>
-
-	<!-- Post meta after content -->
-	
-	<div class="clearfix">
-		<a class="btn-readmore" href="../../2021/02/15/lorem-ipsum-dolor-sit-a-met-consectetur-2/index.html">Read more +</a>
-	</div>
-</article>
 </div>			<div class="clearfix"></div>
 			<div class="pagination-wrap">
 								<div class="pagination" role="navigation">
 					<span aria-current="page" class="page-numbers current">1</span><a class="page-numbers" href="page/2/index.html">2</a><a class="next page-numbers" href="page/2/index.html">Next&nbsp;&nbsp;<i class="fas fa-long-arrow-alt-right"></i></a>				</div>
 			</div>
 			</div>
-		
+
 
 </div><!-- end main content -->
 
@@ -344,11 +332,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus,
 	</div>
 
 
-		
-			
+
+
 			</div><!-- end main -->
 
-			
+
 			<div class="footer-wrapper">
 
 												<footer id="footer" class="footer footer-builder"><div class="porto-block" data-id="335"><style>.vc_custom_1613423308427{background-color: #454545 !important;}.vc_custom_1624085312711{margin-left: -2px !important;}.vc_custom_1624085400270{margin-left: -3px !important;}.vc_custom_1613425482764{border-top-width: 1px !important;border-top-color: rgba(255,255,255,0.1) !important;border-top-style: solid !important;}.custom-footer-top .vc_column-inner { display: flex; flex-wrap: wrap; align-items: center; }
@@ -365,7 +353,7 @@ footer .porto-sicon-box-link:hover .custom-hover-1 .porto-sicon-description { co
 <div class="porto-separator   w-100 my-5 pt-3"><hr class="separator-line  align_center solid" style="background-color:rgba(255,255,255,0.1);"></div></div></div><div class="mb-4 mb-lg-0 vc_column_container col-md-12 col-lg-3"><div class="wpb_wrapper vc_column-inner">
 	<div class="wpb_single_image wpb_content_element vc_align_left   mb-4" data-appear-animation="fadeIn" data-appear-animation-delay="200">
 		<div class="wpb_wrapper">
-			
+
 			<a href="../../index.html" target="_self"><div class="vc_single_image-wrapper   vc_box_border_grey"><img width="123" height="33" src="../../wp-content/uploads/sites/204/porto_placeholders/100x26.jpg" data-oi="https://www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/logo-footer.png" class="porto-lazyload vc_single_image-img attachment-full" alt="logo" title="logo-footer" /></div></a>
 		</div>
 	</div>
@@ -483,12 +471,12 @@ footer .porto-sicon-box-link:hover .custom-hover-1 .porto-sicon-description { co
 <a class="link-hover-style-1 ms-1" href="#"> FAQs</a></li>
 </ul>
 </div></div></div></div><div class="vc_column_container col-md-12"><div class="wpb_wrapper vc_column-inner"><p style="font-size: 13.86px;color: #999999;text-align: center" class="vc_custom_heading mb-5 pt-4 mt-5 vc_custom_1613425482764">Porto Business Consulting. © 2022. All Rights Reserved</p></div></div></div></div></div></div></footer>
-				
+
 			</div>
-					
-		
+
+
 	</div><!-- end wrapper -->
-	
+
 <script type="text/html" id="wpb-modifications"></script><script src='../../wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></script>
 <script id='wp-polyfill-js-after'>
 ( 'fetch' in window ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-url.min.js"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js"></scr' + 'ipt>' );
@@ -537,13 +525,13 @@ var js_porto_vars = {"rtl":"","theme_url":"https:\/\/www.portotheme.com\/wordpre
 (function(theme, $) {
 
 	theme = theme || {};
-    
+
 	var instanceName = '__cursorEffect';
 
 	var PluginCursorEffect = function($el, opts) {
 		return this.initialize($el, opts);
 	};
-	
+
 	PluginCursorEffect.defaulst = {
 
 	}
@@ -615,7 +603,7 @@ var js_porto_vars = {"rtl":"","theme_url":"https:\/\/www.portotheme.com\/wordpre
 					case 'small':
 						self.$el.addClass( 'cursor-effect-size-small' );
 						break;
-					
+
 					case 'big':
 						self.$el.addClass( 'cursor-effect-size-big' );
 						break;
@@ -701,7 +689,7 @@ var js_porto_vars = {"rtl":"","theme_url":"https:\/\/www.portotheme.com\/wordpre
 			});
 
 			$('[data-cursor-effect-hover]').on('mouseleave', function(){
-				
+
 				// Identify Event With Hover Class
 				$cursorOuter.removeClass('cursor-outer-hover');
 				$cursorInner.removeClass('cursor-inner-hover');
@@ -743,7 +731,7 @@ var js_porto_vars = {"rtl":"","theme_url":"https:\/\/www.portotheme.com\/wordpre
 		destroy: function() {
 			var self = this;
 
-			self.$el.removeClass('hide-mouse-cursor cursor-effect-size-small cursor-effect-size-big cursor-effect-style-square');		
+			self.$el.removeClass('hide-mouse-cursor cursor-effect-size-small cursor-effect-size-big cursor-effect-style-square');
 
 			cancelAnimationFrame( self.loop );
 			cancelAnimationFrame( self.loopInside );
@@ -854,7 +842,7 @@ var js_porto_vars = {"rtl":"","theme_url":"https:\/\/www.portotheme.com\/wordpre
 			if( $('html').hasClass('safari') ) {
 				backgroundCssValue = '-webkit-linear-gradient(top, rgba(2, 0, 36, 0) 0%, '+ self.options.overlayColor +' 100%)'
 			}
-			
+
 			self.options.wrapper.find('.readmore-overlay').css({
 				background: backgroundCssValue,
 				position: 'absolute',
@@ -872,7 +860,7 @@ var js_porto_vars = {"rtl":"","theme_url":"https:\/\/www.portotheme.com\/wordpre
 				left: 0,
 				width: '100%',
 				'z-index': 2
-			});	
+			});
 
 			// Button Label
 			self.options.wrapper.find('.readmore-button-wrapper > button').html( self.options.buttonOpenLabel );

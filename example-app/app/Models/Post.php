@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\Category;
+use App\Models\PostCategory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Post extends Model
 {
@@ -35,5 +37,6 @@ class Post extends Model
     public function categories()
     {
         return $this->belongsToMany(Category::class,PostCategory::class);
+        // return $this->belongsToMany(Category::class);
     }
 }
