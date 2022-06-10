@@ -10,4 +10,8 @@ class AdminControllers extends Controller
 {
 return view('admin.adminhome');
 }
+public function viewCreatePost()
+{
+return view('admin.createpost');
+}
 }
