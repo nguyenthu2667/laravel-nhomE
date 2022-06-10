@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\Post;
 use App\Models\Category;
+use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
     public function getPosts()
     {
         $posts = Post::all();
-        return view('admin.adminhome', ['posts' => $posts]);
+        return view('admin.editButton', ['posts' => $posts]);
     }
     public function editPost($id)
     {

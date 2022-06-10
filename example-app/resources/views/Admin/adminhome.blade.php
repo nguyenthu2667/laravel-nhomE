@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    home admin
     @yield('content')
 </body>
 </html>

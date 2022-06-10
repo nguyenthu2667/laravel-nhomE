@@ -18,8 +18,10 @@ use App\Http\Controllers\CustomAuthController;
     Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
     Route::get('home', [CustomAuthController::class, 'home'])->name('home')->middleware('CheckLogin');
     Route::get('pagehome', [CustomAuthController::class, 'pagehome'])->name('pagehome')->middleware('CheckLogin');
+
+
 Route::get('post/{post}', [AdminController::class, 'editPost'])->name('edit');
-Route::get('adminhome', [AdminControllers::class, 'homeAdmin'])->name('homeAdmin');
+Route::get('adminhome', [AdminController::class, 'getPosts'])->name('getPosts');
 Route::put('update/{id}', [AdminController::class, 'updatePost'])->name('update');
 
 //Login_out_user_admin

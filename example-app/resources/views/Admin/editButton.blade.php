@@ -1,4 +1,4 @@
-    @extends('adminhome')
+    @extends('admin.adminhome')
     @section('content')
     <table class="table">
         <thead>
