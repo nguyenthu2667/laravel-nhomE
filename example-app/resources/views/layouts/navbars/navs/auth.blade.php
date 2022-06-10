@@ -49,21 +49,22 @@
                 <li class="dropdown nav-item">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                         <div class="photo">
-                            <img src="{{ asset('images/anime3.png') }}" alt="{{ __('Profile Photo') }}">
+                            <img src="https://i.pinimg.com/474x/98/8e/ea/988eea1fb4e3f185b82a0f51d51a2a0a.jpg" alt="{{ __('Profile Photo') }}">
                         </div>
                         <b class="caret d-none d-lg-block d-xl-block"></b>
                         <p class="d-lg-none">{{ __('Log out') }}</p>
                     </a>
                     <ul class="dropdown-menu dropdown-navbar">
                         <li class="nav-link">
-                            <a href="{{ route('profile.edit') }}" class="nav-item dropdown-item">{{ __('Profile') }}</a>
+                            <a href="" class="nav-item dropdown-item">{{ __('Profile') }}</a>
+                            {{-- {{ route('profile.edit') }} --}}
                         </li>
                         <li class="nav-link">
                             <a href="#" class="nav-item dropdown-item">{{ __('Settings') }}</a>
                         </li>
                         <li class="dropdown-divider"></li>
                         <li class="nav-link">
-                            <a href="{{ route('signout') }}" class="nav-item dropdown-item" >{{ __('Log out') }}</a>
+                            <a href="{{ route('signout') }}" class="nav-item dropdown-item" onclick="event.preventDefault();  document.getElementById('logout-form').submit();">{{ __('Log out') }}</a>
                         </li>
                     </ul>
                 </li>

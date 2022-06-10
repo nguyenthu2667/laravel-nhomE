@@ -16,6 +16,8 @@
 	<link rel="preload" href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/themes/porto/fonts/porto-font/porto.woff2') }}" as="font" type="font/woff2" crossorigin /><link rel="preload" href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/themes/porto/fonts/fontawesome_optimized/fa-solid-900.woff2') }}" as="font" type="font/woff2" crossorigin /><link rel="preload" href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/themes/porto/fonts/fontawesome_optimized/fa-regular-400.woff2') }}" as="font" type="font/woff2" crossorigin /><link rel="preload" href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/themes/porto/fonts/fontawesome_optimized/fa-brands-400.woff2') }}" as="font" type="font/woff2" crossorigin /><link rel="preload" href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/themes/porto/fonts/Simple-Line-Icons/Simple-Line-Icons.ttf') }}" as="font" type="font/ttf" crossorigin /><title>Porto Business Consulting 3 &#8211; Porto WordPress Demo site</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="alternate" type="application/rss+xml" title="Porto Business Consulting 3 &raquo; Feed" href="feed/index.html" />
 <link rel="alternate" type="application/rss+xml" title="Porto Business Consulting 3 &raquo; Comments Feed" href="comments/feed/index.html" />
 <link rel='stylesheet' id='wp-block-library-css'  href="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-includes/css/dist/block-library/style.min.css') }}" media='all' />
@@ -134,7 +136,9 @@
 </div></div><div class="d-flex align-items-center w-md-60-right w-100 w-xl-100pct vc_column_container col-md-6"><div class="wpb_wrapper vc_column-inner"><h5 style="font-size: 12.6px;color: #212529;line-height: 24px;font-weight:600;letter-spacing:0" class="vc_custom_heading ms-auto mb-0 m-r-md d-none d-md-block align-left">Mon - Sat 9:00am - 6:00pm / Sunday - CLOSED</h5><div class="share-links">		<a target="_blank"  rel="nofollow noopener noreferrer" class="share-facebook" href="#" title="Facebook"></a>
 				<a target="_blank"  rel="nofollow noopener noreferrer" class="share-twitter" href="#" title="Twitter"></a>
 				<a target="_blank"  rel="nofollow noopener noreferrer" class="share-instagram" href="#" title="Instagram"></a>
-				<a   rel="nofollow noopener noreferrer" class="logout-home" href="{{ route('signout') }}" title="Logout"></a>
+				<a   rel="nofollow noopener noreferrer" class="logout-home" href="{{ route('signout') }}" title="Logout"><i class="fas fa-sign-out"></i></a>
+				{{-- <a rel="nofollow noopener noreferrer" class="share-instagram" href="{{ route('signout') }}" title="Instagram"></a> --}}
+				{{-- <a   rel="nofollow noopener noreferrer" class="logout-home" href="{{ route('signout') }}" title="Logout"><i class="fas fa-sign-out"></i></a> --}}
 		</div></div></div></div></div></div><div class="vc_row wpb_row top-row custom-header-main no-padding header-main porto-inner-container"><div class="porto-wrap-container container"><div class="row align-items-center"><div class="vc_column_container col-md-12"><div class="wpb_wrapper vc_column-inner">		<h1 class="logo">
 		<a href="#" title="Porto Business Consulting 3 - Porto WordPress Demo site"  rel="home">
 		<img class="porto-lazyload img-responsive standard-logo retina-logo" width="324" height="66" src="{{ asset('giaodienbe/www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/porto_placeholders/100x20.jpg') }}" data-oi="//www.portotheme.com/wordpress/porto/business-consulting3/wp-content/uploads/sites/204/2021/02/header-logo.png" alt="Porto Business Consulting 3" />	</a>
@@ -684,9 +688,11 @@ footer .porto-sicon-box-link:hover .custom-hover-1 .porto-sicon-description { co
 <p style="font-size: 13.86px;color: #999999;line-height: 26px;letter-spacing:0" class="vc_custom_heading align-left">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur fel.</p>
 	<div class="wpb_raw_code wpb_content_element wpb_raw_html mb-0" >
 		<div class="wpb_wrapper">
-			<div class="share-links">		<a target="_blank"  rel="nofollow noopener noreferrer" class="share-facebook" href="#" title="Facebook"></a>
+			<div class="share-links">		
+				<a target="_blank"  rel="nofollow noopener noreferrer" class="share-facebook" href="#" title="Facebook"></a>
 				<a target="_blank"  rel="nofollow noopener noreferrer" class="share-twitter" href="#" title="Twitter"></a>
 				<a target="_blank"  rel="nofollow noopener noreferrer" class="share-instagram" href="#" title="Instagram"></a>
+				<a   rel="nofollow noopener noreferrer" class="logout-home" href="{{ route('signout') }}" title="Logout"><i class="fas fa-sign-out"></i></a>
 		</div>
 		</div>
 	</div>

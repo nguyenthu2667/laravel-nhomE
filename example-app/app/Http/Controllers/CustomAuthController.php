@@ -31,7 +31,7 @@ $request->validate([
 $fieldType = filter_var($request->email, FILTER_VALIDATE_EMAIL) ? 'email' : 'name';
 $credentials = array($fieldType => $request->email, 'password' => $request->password);				
 if (Auth::attempt($credentials)) {																									
-return redirect()->intended('home')																									
+return redirect()->intended('pagehome')																									
 ->withSuccess('Signed in');																									
 }
 

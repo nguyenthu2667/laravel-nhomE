@@ -19,6 +19,7 @@ use App\Http\Controllers\CustomAuthController;
     Route::get('pagehome', [CustomAuthController::class, 'pagehome'])->name('pagehome')->middleware('CheckLogin');
 //Login_out_user_admin
 Route::get('admin', [AdminControllers::class, 'homeAdmin'])->name('admin')->middleware('LogCheck');
+Route::get('viewcrepost', [AdminControllers::class, 'viewCreatePost'])->name('viewcrepost')->middleware('LogCheck');
 
 
 //Authetication roles
