@@ -14,7 +14,7 @@ class EmailController extends Controller
 
     public function sendEmail(Request $request)
     {
-       dd($request);
+      //  dd($request);
         $request->validate([
         // 'name' => 'required',
           'email' => 'required|email',

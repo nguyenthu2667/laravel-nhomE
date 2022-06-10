@@ -1752,7 +1752,7 @@
                                                                             </div>
                                                                             <div class="porto-sicon-header">
                                                                                 <h3 class="porto-sicon-title" style="font-weight:600;font-size:1.44375rem;line-height:20px;letter-spacing:0px;color:#212529;">
-                                                                                    contact@portotheme.com</h3>
+                                                                                    ngoquangkhoanqk@gmail.com</h3>
                                                                             </div> <!-- header -->
                                                                         </div><!-- porto-sicon-box -->
                                                                     </a>
