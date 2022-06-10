@@ -6,6 +6,7 @@ use Closure;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 
 class CheckLogin
 {
@@ -20,8 +21,17 @@ class CheckLogin
     {				
             if (Auth::guest()) {																									
                 return redirect()->intended('login');	}
-                return $next($request);
-        
+                else{
+                    if( Auth::user()->is_admin){
+                        return redirect()->intended('homeadmin');                        
+                    }
+                    return $next($request);
+                    
+                }
+                
+                       
         
     }
+ 
 }
+
