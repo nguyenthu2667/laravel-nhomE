@@ -2,8 +2,6 @@
 use App\Http\Controllers\AdminControllers;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
-use App\Http\Controllers\CheckLogin;
-use App\Http\Middleware\AdminLogin;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,10 +15,11 @@ use App\Http\Middleware\AdminLogin;
     Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
     Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
     Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');	
-    Route::get('home', [CustomAuthController::class, 'home'])->name('home')->middleware('CheckLogin');
+    Route::get('home', [CustomAuthController::class, 'home'])->name('home')->middleware('CheckLogin');    
     Route::get('pagehome', [CustomAuthController::class, 'pagehome'])->name('pagehome')->middleware('CheckLogin');
 //Login_out_user_admin
-Route::get('homeadmin', [AdminControllers::class, 'homeAdmin'])->name('homeadmin')->middleware('CheckLogin');
+Route::get('admin', [AdminControllers::class, 'homeAdmin'])->name('admin')->middleware('LogCheck');
+
 
 //Authetication roles
 

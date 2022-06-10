@@ -89,4 +89,8 @@ public function pagehome()
 {																									
 return view('auth.pagehome');																								
 }
+public function homeAdmin()
+{
+return view('admin.homeadmin');
+}
 }

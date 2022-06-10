@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class CheckLogin
+class LogCheck
 {
     /**
      * Handle an incoming request.
@@ -16,20 +16,12 @@ class CheckLogin
      * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
      */
     public function handle(Request $request, Closure $next)
-    {				
-            if (Auth::guest()) {																									
-                return redirect()->intended('login');	}
-                else{
-                    if( Auth::user()->is_admin){
-                        return redirect()->intended('admin');                      
-                    }
-                    return $next($request);
-                    
-                }
+    {
+        if (Auth::guest()) {																									
+            return redirect()->intended('login');	}
+            
+                return $next($request);
                 
-                       
-        
+            
     }
- 
 }
-
