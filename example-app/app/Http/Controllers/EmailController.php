@@ -14,7 +14,7 @@ class EmailController extends Controller
 
     public function sendEmail(Request $request)
     {
-      // dd($request);
+       dd($request);
         $request->validate([
         // 'name' => 'required',
           'email' => 'required|email',
@@ -30,7 +30,7 @@ class EmailController extends Controller
         ];
 
         Mail::send('email-template', $data, function($message) use ($data) {
-          $message->from("ngoquangkhoanqk@gmail.com",'Khoa dep trai');
+          $message->from("ngoquangkhoanqk@gmail.com",'Khoa_PROTO');
           $message->to($data['email'])
           ->subject($data['subject']);
         });
