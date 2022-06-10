@@ -49,7 +49,7 @@
                 <li class="dropdown nav-item">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                         <div class="photo">
-                            <img src="{{ asset('black') }}/img/anime3.png" alt="{{ __('Profile Photo') }}">
+                            <img src="https://i.pinimg.com/474x/98/8e/ea/988eea1fb4e3f185b82a0f51d51a2a0a.jpg" alt="{{ __('Profile Photo') }}">
                         </div>
                         <b class="caret d-none d-lg-block d-xl-block"></b>
                         <p class="d-lg-none">{{ __('Log out') }}</p>

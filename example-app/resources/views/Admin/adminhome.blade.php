@@ -13,9 +13,12 @@
                 @include('layouts.footer')
             </div>
         </div>
-        <form id="logout-form" action="{{ route('signout') }}" method="POST" style="display: none;">
+        <form id="logout-form" class="form" method="get" action="{{ route('signout') }}">
             @csrf
         </form>
+        {{-- <form id="logout-form" action="{{ route('login') }}" method="POST" style="display: none;">
+            @csrf
+        </form> --}}
     @else
         @include('layouts.navbars.navbar')
         <div class="wrapper wrapper-full-page">
