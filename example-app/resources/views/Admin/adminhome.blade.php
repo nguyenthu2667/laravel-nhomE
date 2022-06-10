@@ -8,5 +8,6 @@
 </head>
 <body>
     home admin
+    @yield('content')
 </body>
 </html>

@@ -11,7 +11,7 @@ class AdminController extends Controller
     public function getPosts()
     {
         $posts = Post::all();
-        return view('admin.admin', ['posts' => $posts]);
+        return view('admin.adminhome', ['posts' => $posts]);
     }
     public function editPost($id)
     {
@@ -37,6 +37,6 @@ class AdminController extends Controller
         }
         $post->update();
         $post->save();
-        return redirect('admin');
+        return redirect('adminhome');
     }
 }

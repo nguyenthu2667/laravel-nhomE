@@ -25,7 +25,6 @@
 </style>
 
 <body>
-    @section('update')
     <form action="{{ url('update/' . $post->id) }}" method="POST" enctype="multipart/form-data">
         @method('PUT')
         @csrf
@@ -56,7 +55,6 @@
             <button type="submit" class="btn btn-primary">Update Post</button>
         </div>
     </form>
-    @endsection
 </body>
 
 </html>
