@@ -20,17 +20,7 @@ return Post::create([
 'post_imgpagecove' => $data['post_imgpagecove']
 ]);}
 
-}
 
-
-
-use Illuminate\Http\Request;
-use App\Models\Post;
-use App\Models\Category;
-
-class PostController extends Controller
-{
-    //
     public function getPosts(){
         $posts = Post::all();
        return view('Auth.pagehome', ['posts' => $posts]);
