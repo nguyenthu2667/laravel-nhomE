@@ -44,16 +44,25 @@
                             <div class="card-footer">
                                 <div class="d-grid mx-auto">
                                     <button type="submit" class="btn btn-dark btn-block">Signin</button>
-                                </div>
+                                </div>                                
                                 <div class="pull-left">
                                     <h6>
                                         <a href="{{ route('register-user') }}"
                                             class="link footer-link">{{ __('Create Account') }}</a>
+                                            <a href="{{ url('/getInfo-facebook/facebook') }}"
+                                            class="link footer-link">{{ __('Signin Facebook') }}</a>
+                                            {{-- <a href="{{ url('/login-facebook') }}"
+                                            class="link footer-link">{{ __('Signin Facebook') }}</a> --}}
                                     </h6>
                                 </div>
                             </div>
                         </div>
                     </form>
+                    {{-- <div class="d-grid mx-auto">                                    
+                        <form  class="form" method="get" action="{{ route('login-facebook') }}">
+                            <button type="submit" class="btn btn-dark btn-block">Signin Facebook</button>
+                        </form>
+                    </div> --}}
                 </div>
             </div>
             @include('layouts.footer')

@@ -30,4 +30,18 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    // 'facebook' => [
+    //     'client_id' => env('FACEBOOK_APP_ID'),
+    //     'client_secret' => env('FACEBOOK_APP_SECRET'),
+    //     'redirect' => env('FACEBOOK_APP_CALLBACK_URL'),
+    // ],
+
+
+    'facebook' => [
+'client_id' => '767291681286417', //client face của bạn
+'client_secret' => '1b0adaa7f34a459dcb23400410cbd8dc', //client app service face của bạn
+'redirect' => 'http://127.0.0.1:8000/login/check-info-facebook/facebook' //callback trả về
+// 'redirect' => 'http://127.0.0.1:8000/login/callback'
+],
+
 ];
