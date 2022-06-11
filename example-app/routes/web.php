@@ -29,6 +29,6 @@ Route::get('/admin',[AdminController::class, 'index']);
 
 Route::get('/dashboard',[AdminController::class, 'show_dashboard']);
 
-// Route::get('/listing/{model}',[ListingController::class, 'listing'])->name('listing.index');
+Route::get('listing',[ListingController::class, 'listing'])->name('listing');
 
 

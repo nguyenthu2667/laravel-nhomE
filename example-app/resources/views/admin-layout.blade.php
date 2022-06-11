@@ -100,7 +100,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <span>Doanh Muc</span>
                             </a>
                             <ul class="sub">
-                                <li><a href="typography.html">Hien thi danh sach bai post</a></li>
+                                <li><a href="{{url('listing')}}">Hien thi danh sach bai post</a></li>
                                 <li><a href="glyphicon.html">Xoa bai viet</a></li>
                                 <li><a href="grids.html">Grids</a></li>
                             </ul>
@@ -118,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <!-- //market-->
                
                 <!-- //market-->
-             
+             @yield('content')
                 <!-- tasks -->
             
                 <!-- //tasks -->

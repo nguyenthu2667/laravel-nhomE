@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Post;
 
 class ListingController extends Controller
 {
@@ -10,4 +11,8 @@ class ListingController extends Controller
     //     echo $model;
 
     // }
+    public function listing(){
+        $posts = Post::all();
+        return view('listing',['posts'=> $posts]);
+    }
 }
