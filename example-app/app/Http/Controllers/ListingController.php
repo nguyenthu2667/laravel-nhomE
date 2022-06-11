@@ -15,4 +15,9 @@ class ListingController extends Controller
         $posts = Post::all();
         return view('listing',['posts'=> $posts]);
     }
+
+    
+
+
+    
 }
