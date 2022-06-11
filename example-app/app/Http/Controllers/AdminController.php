@@ -41,9 +41,7 @@ class AdminController extends Controller
         $post->save();
         return redirect('listing');
     }
-    public function index() {
-        return view('admin-login');
-    }
+
 
     public function show_dashboard(){
         return view('admin-layout');
