@@ -2,6 +2,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AdminControllers;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\CustomAuthController;
 
 /*
@@ -19,7 +20,8 @@ use App\Http\Controllers\CustomAuthController;
     Route::get('home', [CustomAuthController::class, 'home'])->name('home')->middleware('CheckLogin');
     Route::get('pagehome', [CustomAuthController::class, 'pagehome'])->name('pagehome')->middleware('CheckLogin');
 
-
+Route::get('/categoryresult/{category}', [PostController::class, 'getPostsEachCategoryId'])->name('categoryresult.categoryId');
+Route::get('pagehome', [PostController::class, 'getPosts']);
 Route::get('post/{post}', [AdminController::class, 'editPost'])->name('edit');
 Route::get('adminhome', [AdminController::class, 'getPosts'])->name('getPosts');
 Route::put('update/{id}', [AdminController::class, 'updatePost'])->name('update');
@@ -43,6 +45,3 @@ Route::get('viewcrepost', [AdminControllers::class, 'viewCreatePost'])->name('vi
 //     Route::get('home', [CustomAuthController::class, 'home'])->name('home');
 //     Route::get('pagehome', [CustomAuthController::class, 'pagehome'])->name('pagehome');
 // });
-
-
-
