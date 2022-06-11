@@ -1,6 +1,9 @@
 <?php
+
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\ListingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +24,11 @@ Route::post('/email', [App\Http\Controllers\EmailController::class, 'sendEmail']
 Route::get('temp',function(){
     return view('temp');
 });
+
+Route::get('/admin',[AdminController::class, 'index']);
+
+Route::get('/dashboard',[AdminController::class, 'show_dashboard']);
+
+// Route::get('/listing/{model}',[ListingController::class, 'listing'])->name('listing.index');
+
+
