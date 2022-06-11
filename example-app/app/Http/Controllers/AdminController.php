@@ -4,10 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 use App\Models\Category;
+
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
+
     public function getPosts()
     {
         $posts = Post::all();
@@ -38,5 +40,13 @@ class AdminController extends Controller
         $post->update();
         $post->save();
         return redirect('adminhome');
+
+    public function index() {
+        return view('admin-login');
+    }
+
+    public function show_dashboard(){
+        return view('admin-layout');
+
     }
 }

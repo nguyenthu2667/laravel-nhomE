@@ -1,15 +1,18 @@
 <?php
+
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AdminControllers;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\ListingController;
 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
 */
+
 
     Route::get('login', [CustomAuthController::class, 'index'])->name('login');
     Route::get('dashboard', [CustomAuthController::class, 'dashboard']);
@@ -49,3 +52,20 @@ Route::get('/check-info-facebook/{social}', [AdminControllers::class, 'checkInFo
 //     Route::get('home', [CustomAuthController::class, 'home'])->name('home');
 //     Route::get('pagehome', [CustomAuthController::class, 'pagehome'])->name('pagehome');
 // });
+
+
+
+Route::get('/email', [App\Http\Controllers\EmailController::class, 'create']);
+Route::post('/email', [App\Http\Controllers\EmailController::class, 'sendEmail'])->name('send.email');
+Route::get('temp',function(){
+    return view('temp');
+});
+
+Route::get('/admin',[AdminController::class, 'index']);
+
+Route::get('/dashboard',[AdminController::class, 'show_dashboard']);
+
+Route::get('listing',[ListingController::class, 'listing'])->name('listing');
+
+
+
