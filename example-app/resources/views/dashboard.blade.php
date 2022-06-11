@@ -19,6 +19,7 @@
     <link href="{{ asset('css/nucleo-icons.css') }}" rel="stylesheet" />
     <!-- CSS -->
     <link href="{{ asset('css/black-dashboard.css?v=1.0.0/css/black-dashboard.css?v=1.0.0') }}" rel="stylesheet" />
+    <link href="{{ asset('css/post.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/theme.css') }}" rel="stylesheet" />
 </head>
 

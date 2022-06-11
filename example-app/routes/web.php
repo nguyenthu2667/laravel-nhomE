@@ -21,7 +21,11 @@ use App\Http\Controllers\CustomAuthController;
 Route::get('admin', [AdminControllers::class, 'homeAdmin'])->name('admin')->middleware('LogCheck');
 Route::get('viewcrepost', [AdminControllers::class, 'viewCreatePost'])->name('viewcrepost')->middleware('LogCheck');
 
-
+//Login facebook
+Route::get('/login-facebook', [AdminControllers::class, 'login_facebook'])->name('login-facebook');
+Route::get('/pagehome/callback', [AdminControllers::class, 'callback_facebook']);
+Route::get('/getInfo-facebook/{social}', [AdminControllers::class, 'getInFo']);
+Route::get('/check-info-facebook/{social}', [AdminControllers::class, 'checkInFo']);
 //Authetication roles
 
 // Route::prefix('admin')->middleware('CheckLogin')->group(function()){}
