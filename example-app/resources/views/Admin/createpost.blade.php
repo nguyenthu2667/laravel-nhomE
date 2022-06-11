@@ -10,16 +10,27 @@
                 <div id="form">
                     <form id="waterform" method="post">
 
-                        <label for="cate">Category</label>
-                        <select name="category-id" class="form-ctr formgroup"></select>
+                        <div class="form-group mb-3">
+                            <label for="">Category</label>
+                            {{--  @foreach ($categories as $category)  --}}
+                            {{--  <input type="checkbox" @if ($post->categories()->get()->contains($category->id)) checked @endif name="category[]" value="{{ $category->id }}">  --}}
+                            {{--  <label for="">{{ $category->categoryName }}</label>
+                            @endforeach  --}}
+                        </div>
+                        
                         <div class="formgroup" id="title-post">
                             <label for="name">Title Post</label>
+                            {{--  @if ($errors->has('post_title'))  --}}
                             <input type="text" id="name" name="name" />
+                            {{--  @endif  --}}
                         </div>
 
                         <div class="formgroup ">
                             <label for="post-content">Post content</label>
+                            {{--  @if ($errors->has('post_title'))  --}}
                             <input type="message" class="post-content"   name="post-content" />
+                            
+                            {{--  @endif  --}}
                         </div>
                         <div class="upload-img formgroup">
                             <label for="image">Chosse img</label>

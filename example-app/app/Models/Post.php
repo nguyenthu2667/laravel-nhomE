@@ -2,19 +2,41 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\Category;
+use App\Models\PostCategory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Post extends Model
 {
     use HasFactory;
-
-    protected $table = 'post';
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'posts';
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
     protected $fillable = [
-   ' id ',
-   ' post_date',
-   '  post_title',
-   '   post_content ',
-   '   post_imgpagecove',
+        'postTitle',
+        'postContent',
+        'postImgpagecove',
+        'postDate',
     ];
+    /**
+     * The name of the "created at" column.
+     *
+     * @var string
+     */
+    const CREATED_AT = 'postDate';
+
+    public function categories()
+    {
+        return $this->belongsToMany(Category::class,PostCategory::class);
+        // return $this->belongsToMany(Category::class);
+    }
 }
