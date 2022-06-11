@@ -24,7 +24,7 @@
                 </td>
                 <td>{{ $post->postContent }}</td>
                 <td>
-                    <a href="{{ url('post/'.$post->id) }}" class="btn btn-primary btn-sm">Edit</a>
+                    <a href="{{ url('post/'.$post->id) }}" class="btn btn-primary btn-sm">Remove</a>
                 </td>
             </tr>
             @endforeach
