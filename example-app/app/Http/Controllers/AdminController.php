@@ -13,13 +13,13 @@ class AdminController extends Controller
     public function getPosts()
     {
         $posts = Post::all();
-        return view('admin.editButton', ['posts' => $posts]);
+        return view('Admin.editButton', ['posts' => $posts]);
     }
     public function editPost($id)
     {
         $post = Post::find($id);
         $categories = Category::all();
-        return view('admin.updatePost', ['post' => $post,'categories' => $categories]);
+        return view('Admin.updatePost', ['post' => $post,'categories' => $categories]);
     }
     public function updatePost(Request $request, $id)
     {
@@ -39,8 +39,8 @@ class AdminController extends Controller
         }
         $post->update();
         $post->save();
-        return redirect('adminhome');
-
+        return redirect('listing');
+    }
     public function index() {
         return view('admin-login');
     }

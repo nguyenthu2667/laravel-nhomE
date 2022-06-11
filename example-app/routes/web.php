@@ -24,7 +24,7 @@ use App\Http\Controllers\ListingController;
     Route::get('pagehome', [CustomAuthController::class, 'pagehome'])->name('pagehome')->middleware('CheckLogin');
 
 Route::get('/categoryresult/{category}', [PostController::class, 'getPostsEachCategoryId'])->name('categoryresult.categoryId');
-Route::get('pagehome', [PostController::class, 'getPosts']);
+Route::get('pagehome', [PostController::class, 'getPosts'])->middleware('CheckLogin');;
 Route::get('post/{post}', [AdminController::class, 'editPost'])->name('edit');
 Route::get('adminhome', [AdminController::class, 'getPosts'])->name('getPosts');
 Route::put('update/{id}', [AdminController::class, 'updatePost'])->name('update');

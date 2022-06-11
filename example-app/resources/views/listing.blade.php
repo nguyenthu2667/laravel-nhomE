@@ -7,7 +7,7 @@
             <td>Post Title</td>
             <td>Category</td>
             <td>Post Content</td>
-            <td>Update</td>
+            <td>Action</td>
         </thead>
         <tbody>
             @foreach ($posts as $post)
@@ -25,6 +25,7 @@
                 <td>{{ $post->postContent }}</td>
                 <td>
                     <a href="{{ url('post/'.$post->id) }}" class="btn btn-primary btn-sm">Remove</a>
+                    <a href="{{ url('post/'.$post->id) }}" class="btn btn-primary btn-sm">Update</a>
                 </td>
             </tr>
             @endforeach
